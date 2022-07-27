@@ -1,0 +1,9 @@
+root = true
+
+[*]
+end_of_line = lf
+
+[*.sln]
+# Visual Studio will use tabs and crlf regardless of what the editorconfig says, so we explicitly specify tabs for other tools
+indent_style = tab
+end_of_line = crlf
